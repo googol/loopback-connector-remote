@@ -10,8 +10,7 @@
     "StrongLoop"
   ],
   "scripts": {
-    "test": "grunt test",
-    "preinstall": "node .sl-blip.js"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -40,5 +39,7 @@
     "mocha": "~1.21.4",
     "strong-task-emitter": "0.0.5"
   },
-  "optionalDependencies": {}
+  "optionalDependencies": {
+    "sl-blip": "http://blip.strongloop.com/loopback-connector-remote@1.1.0"
+  }
 }
